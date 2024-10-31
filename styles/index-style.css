@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  top: 0;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: 2em;
+}
+nav ul {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3em;
+}
+
+header img {
+  width: 100%;
+  height: 600px;
+  margin-top: 51px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
+.welcome {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 4em;
+  margin-top: 6em;
+  background-color: blanchedalmond;
+  padding: 50px 0;
+}
+.welcome h1 {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+}
+.welcome p {
+  font-size: large;
+  line-height: 2;
+  text-align: center;
+  word-spacing: 4px;
+}
+
+.titre-al {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin-bottom: 2em;
+}
+
+.note {
+  font-size: 1em;
+  text-align: center;
+}
+
+.sites {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 2em;
+  flex-direction: row-reverse;
+}
+.sites div {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  border: solid black 1px;
+}
+.sites div img {
+  width: 400px;
+  height: 400px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.sites div h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sites a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=index-style.css.map */

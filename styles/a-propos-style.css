@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  top: 0;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  margin-left: 2em;
+}
+nav ul {
+  font-size: 1.5em;
+  font-style: normal;
+  justify-content: space-around;
+  margin-left: 3em;
+}
+
+section {
+  margin: 3em 0;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=a-propos-style.css.map */
